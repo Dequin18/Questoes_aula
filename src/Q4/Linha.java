@@ -5,18 +5,18 @@ public class Linha {
 	private String DestinoFinal;
 	private int Codigo;
 		
-	public void setExtensao(String nome) {
-		this.Extensao = nome;
+	public void setExtensao(String extensao) {
+		this.Extensao = exte;
 	}
-	public void setCodigo(int Numero) {
-		this.Codigo = Numero;
+	public void setCodigo(int codigo) {
+		this.Codigo = cod;
 	}
-	public void setDataSaida (String Documento) {
-		this.DestinoFinal = Documento;
+	public void setdestinoFinal (String destinoFinal) {
+		this.DestinoFinal = destino;
 	}
 
 	
-	public String getCarga () {
+	public String getdestinoFinal () {
 		return this.DestinoFinal;
 	}
 	public int getCodigo() {
