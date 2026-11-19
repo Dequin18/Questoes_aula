@@ -8,15 +8,15 @@ public class Motorista {
 	public void setNome(String nome) {
 		this.Nome = nome;
 	}
-	public void setCategoria(String Numero) {
-		this.Categoria = Numero;
+	public void setCategoria(String catego) {
+		this.Categoria = catego;
 	}
-	public void setDataSaida (int Documento) {
+	public void setCNH (String CNH) {
 		this.CNH = CNH;
 	}
 
 	
-	public String getCarga () {
+	public String getCNH () {
 		return this.CNH;
 	}
 	public String getCategoria() {
