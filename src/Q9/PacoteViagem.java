@@ -1,18 +1,39 @@
 package Q9;
 
 public class PacoteViagem {
-	private String Destino;
-	private int Valor;
-	private int duracao;
-		
-	public void setDestino(String nome) {
-		this.Destino = nome;
-	}
-	public void setValor(int Numero) {
-		this.Valor = Numero;
-	}
-	public void setduracao (int Documento) {
-		this.duracao = Documento;
+
+    private String Destino;
+    private double Valor;
+    private int Duracao;
+
+    public void setDestino(String destino) {
+        this.Destino = destino;
+    }
+
+    public void setValor(double valor) {
+        if (valor > 0) {
+            this.Valor = valor;
+        }
+    }
+
+    public void setDuracao(int duracao) {
+        if (duracao > 0) {
+            this.Duracao = duracao;
+        }
+    }
+
+    public String getDestino() {
+        return this.Destino;
+    }
+
+    public double getValor() {
+        return this.Valor;
+    }
+
+    public int getDuracao() {
+        return this.Duracao;
+    }
+}
 	}
 
 	
