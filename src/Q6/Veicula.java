@@ -1,28 +1,34 @@
 package Q6;
 
-public class Veicula {
-	private String Modelo;
-	private String Marca;
-	private int Valor;
-		
-	public void setModelo(String nome) {
-		this.Modelo = nome;
-	}
-	public void setValor(int Numero) {
-		this.Valor = Numero;
-	}
-	public void setMarca (String Documento) {
-		this.Marca = Documento;
-	}
+public class Veiculo {
 
-	
-	public String getCarga () {
-		return this.Marca;
-	}
-	public int getValor() {
-		return this.Valor;
-	}
-	public String getModelo () {
-		return this.Modelo;
-	}	
+    private String Modelo;
+    private String Marca;
+    private double Valor;
+
+    public void setModelo(String modelo) {
+        this.Modelo = modelo;
+    }
+
+    public void setMarca(String marca) {
+        this.Marca = marca;
+    }
+
+    public void setValor(double valor) {
+        if (valor >= 0) {
+            this.Valor = valor;
+        }
+    }
+
+    public String getModelo() {
+        return this.Modelo;
+    }
+
+    public String getMarca() {
+        return this.Marca;
+    }
+
+    public double getValor() {
+        return this.Valor;
+    }
 }
