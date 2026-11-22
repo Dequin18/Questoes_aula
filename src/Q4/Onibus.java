@@ -1,28 +1,34 @@
 package Q4;
 
 public class Onibus {
-	private String Placa;
-	private String Modelo;
-	private int Capacidade;
-		
-	public void setPlaca(String nome) {
-		this.Placa = nome;
-	}
-	public void setCapacidade(int Numero) {
-		this.Capacidade = Numero;
-	}
-	public void setDataSaida (int Documento) {
-		this.Modelo = Modelo;
-	}
 
-	
-	public String getCarga () {
-		return this.Modelo;
-	}
-	public int getCapacidade() {
-		return this.Capacidade;
-	}
-	public String getPlaca () {
-		return this.Placa;
-	}		
+    private String Placa;
+    private String Modelo;
+    private int Capacidade;
+
+    public void setPlaca(String placa) {
+        this.Placa = placa;
+    }
+
+    public void setModelo(String modelo) {
+        this.Modelo = modelo;
+    }
+
+    public void setCapacidade(int numero) {
+        if (numero >= 10) {
+            this.Capacidade = numero;
+        }
+    }
+
+    public String getPlaca() {
+        return this.Placa;
+    }
+
+    public String getModelo() {
+        return this.Modelo;
+    }
+
+    public int getCapacidade() {
+        return this.Capacidade;
+    }
 }
