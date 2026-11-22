@@ -2,28 +2,31 @@ package Q5;
 
 public class Palestrante {
 
-	private String Nome;
-	private String AreaDeAtuacao;
-	private String Titulacao;
-		
-	public void setNome(String nome) {
-		this.Nome = nome;
-	}
-	public void setTitulacao(String Numero) {
-		this.Titulacao = Numero;
-	}
-	public void setDataSaida (String Documento) {
-		this.AreaDeAtuacao = Documento;
-	}
+    private String Nome;
+    private String AreaAtuacao;
+    private String Titulacao;
 
-	
-	public String getCarga () {
-		return this.AreaDeAtuacao;
-	}
-	public String getTitulacao() {
-		return this.Titulacao;
-	}
-	public String getNome () {
-		return this.Nome;
-	}	
+    public void setNome(String nome) {
+        this.Nome = nome;
+    }
+
+    public void setAreaAtuacao(String area) {
+        this.AreaAtuacao = area;
+    }
+
+    public void setTitulacao(String titulacao) {
+        this.Titulacao = titulacao;
+    }
+
+    public String getNome() {
+        return this.Nome;
+    }
+
+    public String getAreaAtuacao() {
+        return this.AreaAtuacao;
+    }
+
+    public String getTitulacao() {
+        return this.Titulacao;
+    }
 }
