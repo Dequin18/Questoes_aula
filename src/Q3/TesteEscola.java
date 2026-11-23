@@ -13,7 +13,7 @@ public class TesteEscola {
 		public static void Professor() {
 			Professor p1 = new Professor();
 			p1.setNome("Maria");
-			p1.setCargaHoraria("8:00");
+			p1.setCarga("8:00");
 			p1.setFormacao("Matematica");
 			System.out.println(p1);
 			

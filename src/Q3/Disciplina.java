@@ -16,7 +16,7 @@ public class Disciplina {
 	}
 
 	
-	public int getCarga () {
+	public int getCodigo () {
 		return this.Codigo;
 	}
 	public String getCargaHoraria() {
