@@ -2,25 +2,7 @@ package Q2;
 
 public class Hospede {
 
-<<<<<<< HEAD
-	
-	public int getDocumento () {
-		return this.Documento;
-	}
-	public String getNumero() {
-		return this.Numero;
-	}
-	public String getNome () {
-		return this.nome;
-	}		
-	public String toString() {
-		return " Nome: " + nome + " -  Documento: " + Documento + " - Numero: " + Numero;
-	}
-	
-	
-	
-}
-=======
+
     private String Nome;
     private String Documento;
     private String Telefone;
@@ -48,5 +30,7 @@ public class Hospede {
     public String getTelefone() {
         return this.Telefone;
     }
+    public String toString() {
+		return " Nome: " + Nome + " -  Documento: " + Documento + " - Telefone: " + Telefone;}
 }
->>>>>>> 9af9fa518be4e022395beb29989b4ead0ccf672c
+

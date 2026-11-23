@@ -1,37 +1,37 @@
 package Q6;
 
+
+
 public class TesteCarroloja {
 
 
-	public static void Hospede() {
-		Hospede h1 = new Hospede();
-		h1.setNome("João);
-		h1.setDocumento("33425599");
-		h1.setTelefone("71 9 97885677");
-		System.out.println(h1);
+	public static void Cliente() {
+		Cliente C1 = new Cliente();
+		C1.setCPF("544-432-132-32");
+		C1.setNome("Carlos");
+		C1.setTelefone("71997232012");
+		System.out.println(C1);
 		
 	}
-	public static void Quarto() {
-		Quarto q1 = new Quarto();
-		q1.setNumero(33);
-		q1.setTipo("Deluxe");
-		q1.setVAlorDiaria(55.69);
-		System.out.println(q1);
-		
+	public static void Veiculo() {
+		Veiculo V1 = new Veiculo();
+		V1.setMarca("Toyota");
+		V1.setModelo("Sedan");
+		V1.setValor(100000.23);
+		System.out.println(V1);
 	}
-	public static void Reserve() {
-		Reserve r1 = new Reserve();
-		r1.setDataEntrada("06/07/2022");
-		r1.setDataSaida("08/07/2022");
-		r1.setStatus("encerrado");
-		System.out.println(r1);
+	public static void Vendedor() {
+		Vendedor VE1 = new Vendedor();
+		VE1.setComissao(5000);
+		VE1.setMatricula("543432");
+		VE1.setNome("Pedro");
+		System.out.println(VE1);
 	}
 		
 		public static void main(String[] args) {
-		Hospede();
-		
-		Quarto();
-		Reserve();
+		Cliente();
+		Veiculo();
+		Vendedor();
 		}
 
 	}

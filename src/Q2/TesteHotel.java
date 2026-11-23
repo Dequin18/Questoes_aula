@@ -4,9 +4,9 @@ public class TesteHotel {
 
 		public static void Hospede() {
 			Hospede h1 = new Hospede();
-			h1.setNome("João);
+			h1.setNome("João");
 			h1.setDocumento("33425599");
-			h1.setTelefone("71 9 97885677");
+			h1.setTelefone("71 997885677");
 			System.out.println(h1);
 			
 		}
@@ -14,7 +14,7 @@ public class TesteHotel {
 			Quarto q1 = new Quarto();
 			q1.setNumero(33);
 			q1.setTipo("Deluxe");
-			q1.setVAlorDiaria(55.69);
+			q1.setValorDiaria(55.69);
 			System.out.println(q1);
 			
 		}
