@@ -11,7 +11,7 @@ public class Professor {
 	public void setFormacao(String Numero) {
 		this.formacao = Numero;
 	}
-	public void setCarga (int Documento) {
+	public void setCarga (String CargaHoraria) {
 		this.CargaHoraria = CargaHoraria;
 	}
 
@@ -25,5 +25,7 @@ public class Professor {
 	public String getNome () {
 		return this.nome;
 	}		
-	
+	public String toString() {
+		return " Nome: " + nome + " -  Carga Horaria: " + CargaHoraria + " - formacao: " + formacao;
+	}
 }

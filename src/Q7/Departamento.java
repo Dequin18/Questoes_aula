@@ -29,4 +29,7 @@ public class Departamento {
     public String getLocalizacao() {
         return this.Localizacao;
     }
+    public String toString() {
+		return " Nome: " + Nome + " -  Ramal: " + Ramal + " - Localizacao: " + Localizacao;
+	}
 }

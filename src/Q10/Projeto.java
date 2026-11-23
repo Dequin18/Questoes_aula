@@ -25,4 +25,7 @@ public class Projeto {
 	public String getNome () {
 		return this.Nome;
 	}	
+	public String toString() {
+		return " Nome: " + Nome + " -  prazo: " + prazo + " - Status: " + Status;
+	}
 }

@@ -31,4 +31,7 @@ public class Funcionario {
     public double getSalario() {
         return this.Salario;
     }
+    public String toString() {
+		return " Nome: " + Nome + " -  Salario: " + Salario + " - Matricula: " + Matricula;
+	}
 }

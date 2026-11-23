@@ -29,4 +29,7 @@ public class Cargo {
     public String getDescricao() {
         return this.Descricao;
     }
+    public String toString() {
+		return " Titulo: " + Titulo + " -  Nivel: " + Nivel + " - Descricao: " + Descricao;
+	}
 }

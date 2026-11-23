@@ -31,4 +31,7 @@ public class Vendedor {
     public double getComissao() {
         return this.Comissao;
     }
+    public String toString() {
+		return " Nome: " + Nome + " -  Comissao: " + Comissao + " - Matricula: " + Matricula;
+	}
 }

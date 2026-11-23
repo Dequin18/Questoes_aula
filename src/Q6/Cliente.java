@@ -29,4 +29,7 @@ public class Cliente {
     public String getTelefone() {
         return this.Telefone;
     }
+    public String toString() {
+		return " Nome: " + Nome + " -  CPF: " + CPF + " - Telefone : " + Telefone;
+	}
 }

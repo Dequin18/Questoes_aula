@@ -29,4 +29,7 @@ public class Palestrante {
     public String getTitulacao() {
         return this.Titulacao;
     }
+    public String toString() {
+		return " Nome: " + Nome + " -  Area de atuacao: " + AreaAtuacao + " - Titulacao: " + Titulacao;
+	}
 }

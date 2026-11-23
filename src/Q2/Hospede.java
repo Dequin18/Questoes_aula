@@ -25,6 +25,9 @@ public class Hospede {
 	public String getNome () {
 		return this.nome;
 	}		
+	public String toString() {
+		return " Nome: " + nome + " -  Documento: " + Documento + " - Numero: " + Numero;
+	}
 	
 	
 	

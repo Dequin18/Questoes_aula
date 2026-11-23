@@ -26,5 +26,7 @@ public class Quarto {
 		return this.Tipo;
 	}		
 	
-	
+	public String toString() {
+		return " Tipo do quarto: " + Tipo + " -  numero: " + Numero + " - Valor da diaria: " + ValorDiaria;
+	}
 }

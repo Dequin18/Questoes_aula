@@ -29,4 +29,7 @@ public class Motorista {
     public String getCategoria() {
         return this.Categoria;
     }
+    public String toString() {
+		return " Nome: " + Nome + " -  CNH: " + CNH + " - Categoria: " + Categoria;
+	}
 }

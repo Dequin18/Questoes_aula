@@ -31,4 +31,7 @@ public class Veiculo {
     public double getValor() {
         return this.Valor;
     }
+    public String toString() {
+		return " Modelo: " + Modelo + " -  Marca: " + Marca + " - Valor: " + Valor;
+	}
 }

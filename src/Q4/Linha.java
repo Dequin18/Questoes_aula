@@ -29,4 +29,7 @@ public class Linha {
     public double getExtensao() {
         return this.Extensao;
     }
+    public String toString() {
+		return " Codigo: " + Codigo + " -  Destino final: " + DestinoFinal + " - Extensao: " + Extensao;
+	}
 }

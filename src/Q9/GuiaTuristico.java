@@ -29,4 +29,7 @@ public class GuiaTuristico {
     public String getRegistro() {
         return this.Registro;
     }
+    public String toString() {
+		return " Nome: " + Nome + " -  Idioma: " + Idioma + " - Registro: " + Registro;
+	}
 }

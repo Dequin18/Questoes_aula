@@ -31,4 +31,7 @@ public class Tarefa {
     public String getSituacao() {
         return this.Situacao;
     }
+    public String toString() {
+		return " Descrição: " + Descricao + " -  prioridade: " + Prioridade + " - Situacao: " + Situacao;
+	}
 }

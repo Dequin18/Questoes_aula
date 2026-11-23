@@ -29,20 +29,9 @@ public class Assinante {
     public String getPlano() {
         return this.Plano;
     }
-} (String Documento) {
-		this.Email = Documento;
+    
+    public String toString() {
+		return " Nome: " + Nome + " -  Email: " + Email + " - Plano: " + Plano;
 	}
-
+} 
 	
-	public String getCarga () {
-		return this.Email;
-	}
-	public String getPlano() {
-		return this.Plano;
-	}
-	public String getNome () {
-		return this.Nome;
-	}	
-	
-	
-}

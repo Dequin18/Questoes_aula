@@ -25,4 +25,7 @@ public class Cliente {
 	public String getNome () {
 		return this.Nome;
 	}	
+	public String toString() {
+		return " Nome: " + Nome + " -  CPF: " + CPF + " - Telefone: " + Telefone;
+	}
 }

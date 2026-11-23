@@ -26,4 +26,7 @@ public class Palestra {
 	public String getTema () {
 		return this.Tema;
 	}	
+	public String toString() {
+		return " Tema: " + Tema + " -  Duracao: " + Duracao + " - Sala: " + Sala;
+	}
 }

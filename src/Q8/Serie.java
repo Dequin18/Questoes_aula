@@ -23,28 +23,7 @@ public class Serie {
     public String getTitulo() {
         return this.Titulo;
     }
-
-    public int getTemporadas() {
-        return this.Temporadas;
-    }
-
-    public String getClassificacao() {
-        return this.Classificacao;
-    }
-}
+    public String toString() {
+		return " Titulo: " + Titulo + " -  Temporadas: " + Temporadas + " - Classificação: " + Classificacao;
 	}
-	public void setTemporadas (String Documento) {
-		this.Temporadas = Documento;
-	}
-
-	
-	public String getTemporadas () {
-		return this.Temporadas;
-	}
-	public String getClassificacao() {
-		return this.Classificacao;
-	}
-	public String getTitulo () {
-		return this.Titulo;
-	}	
 }

@@ -25,4 +25,7 @@ public class Colaborador {
 	public String getNome () {
 		return this.Nome;
 	}	
+	public String toString() {
+		return " Nome: " + Nome + " -  Cargo: " + cargo + " - email: " + email;
+	}
 }

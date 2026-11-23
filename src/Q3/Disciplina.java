@@ -11,7 +11,7 @@ public class Disciplina {
 	public void setCargaHoraria(String Numero) {
 		this.CargaHoraria = Numero;
 	}
-	public void setCarga (int Documento) {
+	public void setCarga (int Codigo) {
 		this.Codigo = Codigo;
 	}
 
@@ -25,6 +25,8 @@ public class Disciplina {
 	public String getNome () {
 		return this.nome;
 	}		
-	
+	public String toString() {
+		return " Nome: " + nome + " -  Codigo: " + Codigo + " - Carga Horaria: " + CargaHoraria;
+	}
 }
 

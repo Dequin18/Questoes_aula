@@ -11,7 +11,7 @@ public class Reserve {
 	public void setStatus(String Numero) {
 		this.Status = Numero;
 	}
-	public void setDataSaida (int Documento) {
+	public void setDataSaida (String DataSaida) {
 		this.DataSaida = DataSaida;
 	}
 
@@ -25,5 +25,7 @@ public class Reserve {
 	public String getDataEntrada () {
 		return this.DataEntrada;
 	}		
-	
+	public String toString() {
+		return " Data entrada: " + DataEntrada + " -  Data saida: " + DataSaida + " - Status: " + Status;
+	}
 }
