@@ -11,7 +11,7 @@ public class Disciplina {
 	public void setCargaHoraria(String Numero) {
 		this.CargaHoraria = Numero;
 	}
-	public void setCarga (int Codigo) {
+	public void setCodigo (int Codigo) {
 		this.Codigo = Codigo;
 	}
 
