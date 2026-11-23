@@ -10,10 +10,18 @@ public static void alunos() {
 	
 }
 public static void instrutor() {
+	Instrutor i1 = new Instrutor();
+	i1.setNome("Joao");
+	i1.setEspecialidade("Professor");
+	System.out.println(i1);
 	
 }
 public static void Treino() {
-	
+	Treino T1 = new Treino();
+	T1.setCodigo("43");
+	T1.setDuracao(50);
+	T1.setObjetivo("Engordar");
+	System.out.println(T1);
 }
 	
 	public static void main(String[] args) {

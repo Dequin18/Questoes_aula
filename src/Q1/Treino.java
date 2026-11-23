@@ -31,4 +31,8 @@ public class Treino {
     public int getDuracao() {
         return this.Duracao;
     }
+    @Override
+	public String toString() {
+		return " Codigo do treino: " + Codigo + " -  Objetivo: " + Objetivo + " -  duracao do treino: " + Duracao + "m";
+	}
 }
