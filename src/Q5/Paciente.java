@@ -1,28 +1,34 @@
 package Q5;
 
-public class Paciente {
-	private String Nome;
-	private String Email;
-	private String Empresa;
-		
-	public void setNome(String nome) {
-		this.Nome = nome;
-	}
-	public void setCodigo(String Numero) {
-		this.Empresa = Numero;
-	}
-	public void setDataSaida (String Documento) {
-		this.Email = Documento;
-	}
+public class Participante {
 
-	
-	public String getCarga () {
-		return this.Email;
-	}
-	public String getEmpresa() {
-		return this.Empresa;
-	}
-	public String getNome () {
-		return this.Nome;
-	}	
-}
+    private String Nome;
+    private String Email;
+    private String Empresa;
+
+    public void setNome(String nome) {
+        this.Nome = nome;
+    }
+
+    public void setEmail(String email) {
+        if (email.equals(email.toLowerCase()) && email.contains("@")) {
+            this.Email = email;
+        }
+    }
+
+    public void setEmpresa(String empresa) {
+        this.Empresa = empresa;
+    }
+
+    public String getNome() {
+        return this.Nome;
+    }
+
+    public String getEmail() {
+        return this.Email;
+    }
+
+    public String getEmpresa() {
+        return this.Empresa;
+    }
+} 

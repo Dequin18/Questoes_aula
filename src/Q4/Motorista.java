@@ -1,28 +1,32 @@
 package Q4;
 
 public class Motorista {
-	private String Nome;
-	private String CNH;
-	private String Categoria;
-		
-	public void setNome(String nome) {
-		this.Nome = nome;
-	}
-	public void setCategoria(String catego) {
-		this.Categoria = catego;
-	}
-	public void setCNH (String CNH) {
-		this.CNH = CNH;
-	}
 
-	
-	public String getCNH () {
-		return this.CNH;
-	}
-	public String getCategoria() {
-		return this.Categoria;
-	}
-	public String getNome () {
-		return this.Nome;
-	}		
+    private String Nome;
+    private String CNH;
+    private String Categoria;
+
+    public void setNome(String nome) {
+        this.Nome = nome;
+    }
+
+    public void setCNH(String cnh) {
+        this.CNH = cnh;
+    }
+
+    public void setCategoria(String categoria) {
+        this.Categoria = categoria;
+    }
+
+    public String getNome() {
+        return this.Nome;
+    }
+
+    public String getCNH() {
+        return this.CNH;
+    }
+
+    public String getCategoria() {
+        return this.Categoria;
+    }
 }

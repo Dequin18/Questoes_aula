@@ -1,28 +1,34 @@
 package Q6;
 
-public class Vendendor {
-	private String Nome;
-	private String Marca;
-	private int Valor;
-		
-	public void setNome(String nome) {
-		this.Nome = nome;
-	}
-	public void setValor(int Numero) {
-		this.Valor = Numero;
-	}
-	public void setMarca (String Documento) {
-		this.Marca = Documento;
-	}
+public class Vendedor {
 
-	
-	public String getMarca () {
-		return this.Marca;
-	}
-	public int getValor() {
-		return this.Valor;
-	}
-	public String getNome () {
-		return this.Nome;
-	}	
+    private String Nome;
+    private String Matricula;
+    private double Comissao;
+
+    public void setNome(String nome) {
+        this.Nome = nome;
+    }
+
+    public void setMatricula(String matricula) {
+        this.Matricula = matricula;
+    }
+
+    public void setComissao(double comissao) {
+        if (comissao >= 0) {
+            this.Comissao = comissao;
+        }
+    }
+
+    public String getNome() {
+        return this.Nome;
+    }
+
+    public String getMatricula() {
+        return this.Matricula;
+    }
+
+    public double getComissao() {
+        return this.Comissao;
+    }
 }
