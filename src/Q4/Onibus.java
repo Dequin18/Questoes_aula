@@ -5,18 +5,18 @@ public class Onibus {
 	private String Modelo;
 	private int Capacidade;
 		
-	public void setPlaca(String nome) {
-		this.Placa = nome;
+	public void setPlaca(String placa) {
+		this.Placa = placa;
 	}
-	public void setCapacidade(int Numero) {
-		this.Capacidade = Numero;
+	public void setCapacidade(int capa) {
+		this.Capacidade = capa;
 	}
-	public void setDataSaida (int Documento) {
-		this.Modelo = Modelo;
+	public void setModelo (int modelo>) {
+		this.Modelo = modelo;
 	}
 
 	
-	public String getCarga () {
+	public String getModelo () {
 		return this.Modelo;
 	}
 	public int getCapacidade() {
