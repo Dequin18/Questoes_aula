@@ -1,20 +1,8 @@
 package Q2;
 
 public class Hospede {
-	private String nome;
-	private int Documento;
-	private String Numero;
-		
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	public void setNumero(String Numero) {
-		this.Numero = Numero;
-	}
-	public void setDocumento (int Documento) {
-			this.Documento = Documento;
-	}
 
+<<<<<<< HEAD
 	
 	public int getDocumento () {
 		return this.Documento;
@@ -32,3 +20,33 @@ public class Hospede {
 	
 	
 }
+=======
+    private String Nome;
+    private String Documento;
+    private String Telefone;
+
+    public void setNome(String nome) {
+        this.Nome = nome;
+    }
+
+    public void setDocumento(String documento) {
+        this.Documento = documento;
+    }
+
+    public void setTelefone(String telefone) {
+        this.Telefone = telefone;
+    }
+
+    public String getNome() {
+        return this.Nome;
+    }
+
+    public String getDocumento() {
+        return this.Documento;
+    }
+
+    public String getTelefone() {
+        return this.Telefone;
+    }
+}
+>>>>>>> 9af9fa518be4e022395beb29989b4ead0ccf672c
