@@ -17,5 +17,8 @@ public class Instrutor {
 	public String getNome () {
 		return this.nome;
 	}		
+	public String toString() {
+		return " Nome: " + nome + " -  Idade: " + especialidade;
+	}
 
 }
