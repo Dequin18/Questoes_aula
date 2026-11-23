@@ -29,4 +29,7 @@ public class Assinante {
     public String getPlano() {
         return this.Plano;
     }
+    public String toString() {
+		return " Nome: " + Nome + " -  Email: " + Email + " - Plano: " + Plano;
+	}
 } 
