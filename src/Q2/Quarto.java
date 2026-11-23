@@ -1,6 +1,8 @@
 package Q2;
 
 public class Quarto {
+	
+
 
     private int Numero;
     private String Tipo;
@@ -30,8 +32,8 @@ public class Quarto {
 
     public double getValorDiaria() {
         return this.ValorDiaria;
-        
-    	public String toString() {
-    		return " Nome: " + nome + " -  Idade: " + idade + " - Matricula: " + Matricula;
     }
+	public String toString() {
+		return " Tipo do quarto: " + Tipo + " -  numero: " + Numero + " - Valor da diaria: " + ValorDiaria;}
 }
+

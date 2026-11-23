@@ -2,6 +2,7 @@ package Q2;
 
 public class Hospede {
 
+
     private String Nome;
     private String Documento;
     private String Telefone;
@@ -28,8 +29,8 @@ public class Hospede {
 
     public String getTelefone() {
         return this.Telefone;
-        
-    	public String toString() {
-    		return " Nome: " + nome + " -  Documento: " + documento + " - Telefone: " + telefone;
     }
+    public String toString() {
+		return " Nome: " + Nome + " -  Documento: " + Documento + " - Telefone: " + Telefone;}
 }
+
