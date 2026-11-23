@@ -33,4 +33,7 @@ public class PacoteViagem {
     public int getDuracao() {
         return this.Duracao;
     }
+    public String toString() {
+		return " Destino: " + Destino + " -  Valor: " + Valor + " - Duracao: " + Duracao;
+	}
 }

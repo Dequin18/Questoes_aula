@@ -29,4 +29,7 @@ public class Filme {
     public String getClassificacao() {
         return this.Classificacao;
     }
+    public String toString() {
+		return " Titulo: " + Titulo + " -  Duracao: " + Duracao + " - Classificacao: " + Classificacao;
+	}
 } 

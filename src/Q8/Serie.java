@@ -31,5 +31,8 @@ public class Serie {
     public String getClassificacao() {
         return this.Classificacao;
     }
+    public String toString() {
+		return " Titulo: " + Titulo + " -  Temporada: " + Temporadas + " - Classificacao: " + Classificacao;
+	}
 }
 
